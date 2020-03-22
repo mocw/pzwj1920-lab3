@@ -1,4 +1,4 @@
-package sample;
+package lodz.uni.math.pzwj1920.lab3;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,9 +10,9 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 300, 775));
+        Parent root = FXMLLoader.load(getClass().getResource("fxmls/sample.fxml"));
+        primaryStage.setTitle("Kółko i krzyżyk");
+        primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
     }
 
