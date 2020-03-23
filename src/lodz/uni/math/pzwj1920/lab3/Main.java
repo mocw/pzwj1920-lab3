@@ -11,8 +11,8 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("fxmls/sample.fxml"));
-        primaryStage.setTitle("Kółko i krzyżyk");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.setTitle("Kwadraty");
+        primaryStage.setScene(new Scene(root, 630, 530));
         primaryStage.show();
     }
 
