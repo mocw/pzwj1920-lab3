@@ -30,7 +30,7 @@
             <RadioButton fx:id="rbRedRect" layoutX="125.0" layoutY="22.0" mnemonicParsing="false" />
             <RadioButton fx:id="rbBlueRect" layoutX="125.0" layoutY="67.0" mnemonicParsing="false" />
             <RadioButton fx:id="rbGreebRect" layoutX="125.0" layoutY="115.0" mnemonicParsing="false" />
-            <Canvas fx:id="screenCanv" height="440.0" layoutX="149.0" layoutY="25.0" onMousePressed="#wstawNaKlikniecie" width="440.0" />
+            <Canvas fx:id="screenCanv" height="400.0" layoutX="149.0" layoutY="25.0" onMousePressed="#wstawNaKlikniecie" width="400.0" />
             <Label layoutX="11.0" layoutY="172.0" text="x" />
             <Label layoutX="11.0" layoutY="206.0" text="y" />
             <Button fx:id="btnInput" layoutX="56.0" layoutY="245.0" mnemonicParsing="false" onAction="#wstaw" text="wstaw" />

@@ -11,7 +11,6 @@ import javafx.scene.control.*;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
-import lodz.uni.math.pzwj1920.lab3.Utilities;
 
 import java.awt.*;
 import java.net.URL;

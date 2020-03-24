@@ -1,4 +1,4 @@
-package lodz.uni.math.pzwj1920.lab3;
+package lodz.uni.math.pzwj1920.lab3.controllers;
 
 import com.sun.webkit.network.Util;
 
